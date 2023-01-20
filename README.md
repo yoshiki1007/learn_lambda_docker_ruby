@@ -6,7 +6,7 @@ image 作成
 docker build -t learn_lambda_docker_ruby .
 ```
 
-タグをつけて image 生成
+タグをつけて image 作成
 
 ```zsh
 docker tag learn_lambda_docker_ruby:latest ${ACCOUNTID}.dkr.ecr.${REGION}.amazonaws.com/learn_lambda_docker_ruby:latest
